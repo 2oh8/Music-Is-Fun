@@ -1,0 +1,41 @@
+body {
+    background: url("http://i.imgur.com/lXKmhN7.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+    
+}
+
+.searchbar {
+
+    margin-top: 15vh;
+    font-family: 'Questrial';
+    text-align: center;
+    color: white;
+
+}
+
+.card-image {
+    width: 3rem;
+    margin-top: 10vh
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.itunes-card {
+    font-family: 'Questrial';
+    margin-top: 7vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    animation: 1s ease 0s 1 slideInFromTop;
+}
+
+audio {
+    width: 5rem;
+}
